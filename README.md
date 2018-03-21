@@ -1,43 +1,34 @@
-# Netlify CMS small-business template
+# Darcli
 
-This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
+## Demo
 
-## Getting started
+You can see this theme on [gjuniioor.github.io/darcli](https://gjuniioor.github.io/darcli)
 
-Use our deploy button to get your own copy of the repository:
+## Screenshot
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/kaldi-hugo-cms-template)
+![Screenshot of the them](assets/img/screenshot.png)
 
-Once that is done, you need to setup the GitHub integration for Netlify CMS.
+## Why the name?
 
-Go to https://github.com/settings/developers and register a new application.
+It's just a joke: `dark + cli`.
 
-Then go to the "Access" tab in your new Netlify site and add a GitHub authentication provider.
+## Features
 
-Once that's done, you'll be able to enter the CMS by going to the URL of your new site and appending `/admin`
+* Categories
+* Disqus comments
+* SEO
+	* Description
+	* Keywords
+	* Open Cards to twitter, facebook, linkedin, google+ and others
+* Code post (but no highligth :] )
+* Atom **AND** RSS feeds
 
-## Local Development
+## Warnings
 
-Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
+This is a theme intended to use to [lampiaosec website](https://lampiaosec.github.io) and after was converted to a general theme to jekyll.
 
-Then start the development server with `yarn start` or `npm start`.
+So, any questions, can you contact me ([@gjuniioor](https://github.com/gjuniioor)) or open a [issue](https://github.com/gjuniioor/darcli/issuesi).
 
-## Layouts
+## License
 
-The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
-
-Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
-
-## CSS
-
-The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
-
-## SVG
-
-All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
-
-```
-<svg width="16px" height="16px" class="db">
-  <use xlink:href="#SVG-ID"></use>
-</svg>
-```
+This theme is under [GPL3](assets/LICENSE).
