@@ -1,0 +1,8 @@
+---
+layout: default
+img: promcon.png
+category: Services
+title: PromCon 2018 Munich
+description: |
+---
+  Visited PromCon 2018, learnt a lot about new trends and possibilities in prometheus world. 

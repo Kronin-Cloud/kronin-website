@@ -1,0 +1,8 @@
+---
+layout: default
+img: cka.jpg
+category: Services
+title: Certified Kubernetes Administrator
+description: |
+---
+  Successfully completed the certificate. Interesting concept and good tasks in the exam.

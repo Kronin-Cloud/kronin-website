@@ -1,28 +1,34 @@
-# Site specific settings
-title: "Kronin Cloud"
-name: "Kronin Cloud"
-keywords: "cloud, kubernetes, devops, remote work"
-baseurl: "/"
-url: "https://kronin.cloud"
-description: "Our little companies website"
-cover: "/assets/img/cover.svg"
-fanpage_id: ""
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
 
-# Site general settings
-lang: "en"
-lang_alternate: "pt_BR"
-ssl: false # It will redirect to https
+url: https://kronin.cloud
+title: Kronin Cloud
+email: your-email@domain.com
+author: Krisztian Banhidy
+description: > # "Write an awesome description for your new site here.
+  Cloud solutions based company
+copyright: 'Copyright &copy; 2018 Kronin Cloud kft. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
-# Media
-# Just the shortname:
-# facebook: lampiaosec # Rigth
-# facebook: facebook.com/lampiaosec # Wrong
-disqus: kronin.cloud
-twitter: 
-facebook: 
-github: 
-google:
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/Kbanhidy
+  - title: github
+    url: https://github.com/Kronin-Cloud
+  - title: linkedin
+    url: https://linkedin.com/company/kronin-cloud
+  - title: slack
+    url: https://kronincloud.slack.com
